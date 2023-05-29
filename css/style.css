@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
+nav {
     background-color: rgb(10, 207, 233);    
 }
 
@@ -40,10 +40,34 @@ section {
     display: flex;
 }
 
-.box {
+.nav-box {
     background-color: rgb(214, 67, 214);
     height: 400px;
     width: 800px;
     margin: 0 auto;
     margin-top: 50px;
+}
+
+.container {
+    width: 980px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px ;
+    
+}
+
+.box1 {
+    background-color: rgb(69, 69, 248);
+    
+    flex-grow: 1;
+}
+
+.box2 {
+    background-color: rgba(255, 192, 203, 0.904);
+    width: 400px;
+}
+
+.section-container {
+    background-color: white;
 }
