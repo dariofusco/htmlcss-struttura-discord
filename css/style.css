@@ -33,6 +33,22 @@ nav {
     padding: 5px;
 }
 
+.logo-footer{
+    background-color: pink;
+    border: 1px solid black;
+    width: 50px;
+    height: 25px;
+    
+}
+
+.bottone {
+    background-color: pink;
+    border: 1px solid black;
+    width: 50px;
+    height: 25px;
+    
+}
+
 .section-nav {
     background-color: rgb(6, 6, 153);
     height: 500px;
@@ -115,3 +131,12 @@ nav {
 .section5-container {
     background-color: rgba(0, 0, 0, 0.856);
 }
+
+.section6-container {
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
