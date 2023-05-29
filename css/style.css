@@ -9,7 +9,6 @@ nav {
 }
 
 .nav-container {
-    
     width: 980px;
     height: 50px;
     display: flex;
@@ -34,7 +33,7 @@ nav {
     padding: 5px;
 }
 
-section {
+.section-nav {
     background-color: rgb(6, 6, 153);
     height: 500px;
     display: flex;
@@ -53,13 +52,12 @@ section {
     height: 400px;
     display: flex;
     margin: 0 auto;
-    margin-top: 50px ;
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .box1 {
     background-color: rgb(69, 69, 248);
-    
     flex-grow: 1;
 }
 
@@ -68,6 +66,27 @@ section {
     width: 400px;
 }
 
+.box3 {
+    background-color: rgba(0, 128, 0, 0.815);
+    width: 980px;
+    height: 900px;
+    margin: 0 auto;
+}
+
 .section-container {
     background-color: white;
+}
+
+.section2-container {
+    background-color: lightgrey;
+}
+
+.section3-container {
+    background-color: white;
+}
+
+.section4-container {
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
