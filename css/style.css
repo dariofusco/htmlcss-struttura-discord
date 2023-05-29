@@ -49,11 +49,20 @@ nav {
 
 .container {
     width: 980px;
-    height: 400px;
+    height: 500px;
     display: flex;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.container2 {
+    width: 980px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .box1 {
@@ -73,6 +82,18 @@ nav {
     margin: 0 auto;
 }
 
+.box4 {
+    background-color: rgba(230, 140, 167, 0.87);
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    flex-grow: 1;
+}
+
+.box5 {
+    background-color: rgb(30, 117, 117);
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    width: 150px;
+}
+
 .section-container {
     background-color: white;
 }
@@ -89,4 +110,8 @@ nav {
     background-color: lightgray;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.section5-container {
+    background-color: rgba(0, 0, 0, 0.856);
 }
