@@ -19,18 +19,23 @@ nav {
 .logo {
     background-color: rgba(255, 166, 0, 0.849);
     padding: 5px;
+    width: 100px;
+    border: 1px solid black;
 }
 
 .link {
     background-color: rgba(255, 166, 0, 0.849);
     flex-grow: 1;
     text-align: center;
+    border: 1px solid black;
     padding: 5px;
 }
 
 .login {
     background-color: rgba(255, 166, 0, 0.849);
     padding: 5px;
+    width: 100px;
+    border: 1px solid black;
 }
 
 .logo-footer{
@@ -110,6 +115,15 @@ nav {
     width: 150px;
 }
 
+.box6 {
+    background-color: aquamarine;
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
 .section-container {
     background-color: white;
 }
@@ -134,9 +148,7 @@ nav {
 
 .section6-container {
     background-color: rgba(0, 0, 0, 0.856);
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
